@@ -6,7 +6,7 @@ if (isset($_REQUEST['name'],$_REQUEST['email'])) {
       $message = $_REQUEST['message'];
         
       // Set your email address where you want to receive emails. 
-      $to = 'arpitachatterjee2510@gmail.com';
+      $to = '';
         
       $subject = 'Contact Request From Website';
       $headers = "From: ".$name." <".$email."> \r\n";
