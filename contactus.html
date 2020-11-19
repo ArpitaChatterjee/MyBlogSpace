@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact us</title>
+	<link rel="stylesheet" type="text/css" href="/css/contactus.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+</head>
+<body>
+	<div class="container">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+				<h2>Contact Us</h2>
+				<form method="post" class="myform" action="/php/contactus.php">
+                   <input type="text" name="name"  class="field" placeholder="Your Name" required><br>
+                   <input type="email" name="email" class="field"  placeholder="Your Email" required><br>
+                   <textarea rows="4" cols="20" name="message" class="field" placeholder="Your Message"></textarea><br>
+                   <button type="submit" name="send" class="btn" value="Send"> Send<span class="output_message"></span></button>
+                </form>
+			</div>
+		</div>
+	</div>
+
+    <script src="/js/contactus.js"></script>
+
+</body>
+</html>
+
